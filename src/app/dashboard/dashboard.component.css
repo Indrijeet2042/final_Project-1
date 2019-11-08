@@ -1,0 +1,18 @@
+.container .box { 
+    width:540px; 
+    margin:50px; 
+    display:table; 
+} 
+.container .box .box-row { 
+    display:table-row; 
+} 
+.container .box .box-cell { 
+    display:table-cell; 
+    border:1px solid black;  
+    padding:10px; 
+} 
+.container .box .box-cell.box1 { 
+    background: #ed2553;  
+    text-align:justify; 
+    width: 25%;
+ } 

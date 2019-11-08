@@ -1,0 +1,14 @@
+<app-header></app-header>
+<div class="container">
+    <div class="box">
+        <div class="box-row">
+            <div class="box-cell box1">
+                <a [routerLink]="'/dashboard/stats'">Stats</a>
+            </div>
+            <div class="box-cell">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
