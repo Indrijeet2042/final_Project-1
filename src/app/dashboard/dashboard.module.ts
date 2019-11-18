@@ -13,6 +13,8 @@ import {FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {faUser as faRegularUser} from '@fortawesome/free-regular-svg-icons';
 import { faFireAlt as faSolidFire, faTasks as faSolidTasks, faTachometerAlt as faSolidTachometer, faFileDownload as faSolidFileDownload,faDumbbell as faSolidDumbbell,
 faSignOutAlt as faSolidSignout, faUser as faSolidUser, faEdit as faSolidEdit, faTrashAlt as faSolidTrash, faFireAlt} from '@fortawesome/free-solid-svg-icons';
+import { GoPremiumComponent } from './go-premium/go-premium.component';
+import { PaymentGatewayComponent } from './payment-gateway/payment-gateway.component';
 
 
 
@@ -22,7 +24,9 @@ faSignOutAlt as faSolidSignout, faUser as faSolidUser, faEdit as faSolidEdit, fa
     TrackProgressComponent,
     MyWorkoutPlanComponent,
     MyProfileComponent,
-    AddWorkoutPlanComponent
+    AddWorkoutPlanComponent,
+    GoPremiumComponent,
+    PaymentGatewayComponent
   ],
   imports: [
     CommonModule,
